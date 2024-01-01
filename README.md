@@ -1,2 +1,7 @@
 # money-happiness
-Suppose you want to know if money makes people happy
+
+This notebook explores the relationship between money and happiness. It starts by importing necessary modules and defining a function to prepare the data. The data is then downloaded and loaded into the notebook. The data consists of life satisfaction and GDP per capita information for various countries.
+
+The notebook proceeds to visualize the data using scatter plots and explores the relationship between GDP per capita and life satisfaction. A linear regression model is trained to predict life satisfaction based on GDP per capita. We've seen developed countries with higher GDP per capita have higher life satisfaction, and developing countries with lower GDP per capita have lower life satisfaction. The assertion that 'does money make people happy?' holds true, as the model predicts an increase in life satisfaction with higher GDP per capita. It's important to note that the relationship between money and happiness is complex. Research such as studies by [Kahneman and Deaton (2010)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2944762/) and [Easterlin (1974)](https://mpra.ub.uni-muenchen.de/111773/) suggests that up to a certain income level, increased wealth can contribute to higher life satisfaction. However, beyond a certain point, the correlation diminishes, and other factors like social relationships, health, and personal fulfillment play a more significant role in overall happiness.
+
+In conclusion, the notebook summarizes the key findings, and the figures generated during the analysis are saved. In essence, it offers an exploration of the real-world data, examining how money influences happiness.
